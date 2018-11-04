@@ -13,6 +13,8 @@ import { FilmesPageModule } from '../pages/filmes/filmes.module';
 import { GeneroPageModule } from '../pages/genero/genero.module';
 import { PopularidadePageModule } from '../pages/popularidade/popularidade.module';
 import { LancamentoPageModule } from '../pages/lancamento/lancamento.module';
+import { DestinoPageModule } from '../pages/destino/destino.module';
+import { DestinoGPageModule } from '../pages/destino-g/destino-g.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { LancamentoPageModule } from '../pages/lancamento/lancamento.module';
     FilmesPageModule,
     GeneroPageModule,
     PopularidadePageModule,
-    LancamentoPageModule    
+    LancamentoPageModule,
+    DestinoPageModule, 
+    DestinoGPageModule   
   ],
   bootstrap: [IonicApp],
   entryComponents: [
